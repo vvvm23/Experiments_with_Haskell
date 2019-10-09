@@ -15,3 +15,6 @@ main = do
 
     putStr "All numbers from 5 to 12 are: "
     print [var2..var1]
+
+    putStr "12^2 is: "
+    print (var1^2)
