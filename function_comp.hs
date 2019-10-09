@@ -14,5 +14,5 @@ even x | x `rem` 2 == 0 = True
 mul (x,y) = x*y
 
 main = do
-    putStrLn "add(mul(4,3))"
+    putStrLn "even(mul(4,3)) == (even.mul)(3,3)"
     print ((even.mul) (3, 3))
